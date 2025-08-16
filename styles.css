@@ -1,0 +1,95 @@
+/* header fonts - Yeseva One */
+/* body fonts - atkinson hyperlegible */
+
+body,p,button {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #dcdcdc;
+    color: #2d3b2f;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+h1, h2, h3 {
+    font-family: 'Yeseva One', cursive;
+}
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #3c280d;
+    border: 2px solid #3c280d;
+
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #3c280d;
+    color: #3c280d;
+}
+
+.abril {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.atkinson {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+logo {
+    /* max-width: 50px; */
+    height: auto;
+    display: inline;
+    font-size: 1.2rem;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: #4C6856;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.p, .h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
