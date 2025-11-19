@@ -1,64 +1,173 @@
-<!-- A Landing page with 2 CTA's [Checkout the tools, Contributors Guide] and a top navbar for an open source library
- Comfort Mode Toolkit’s Documentation!¶
-A collaborative, open-source research and implementation toolkit for making the web more perceptually comfortable and inclusive. - Toolkit End
-redirects to https://comfort-mode-toolkit.readthedocs.io/en/latest/index.html
-Comfort Commons is an open-source community creating tools that make the web more comfortable and accessible for real people with real needs. We're developers, designers, researchers, and advocates who believe the internet should feel good to use—not just technically compliant. - Contributors end
-redirects to https://comfort-mode-toolkit.github.io/wiki/
-
-Comfort Mode is a set of tools, research, and practices designed to:
-
-Let users control how websites look and feel, so they can browse in a way that's truly comfortable for them.
-Go beyond “bare minimum” accessibility, focusing on personalization, comfort, and real user needs.
-Our work spans:
-
-Scaling & Spacing: Smart defaults that adapt to user needs (not just “make it bigger!”).
-Motion & Animation: Helping sites feel lively but never overwhelming (and always optional).
-Research: Gathering evidence and real user stories to inform every decision.
-Open-source tools: Python CLI utilities, docs, and more!
-
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Essential Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comfort Mode Toolkit</title>
+    <meta name="description" content="Comfort Mode Toolkit is an open-source suite offering accessibility-first, WCAG-compliant, and comfort-focused tools to make the web better for everyone.">
+    <meta name="keywords" content="Accessibility, WCAG, A11y, Open Source, Toolkit, Comfort, UX, Inclusive Design, Web, Usability, Assistive Technology, Readability, Comfort Mode Toolkit, ARIA, User Experience, FOSS, Community, Contributions, Inclusive, Disability, Internet, Free Software, Accessible Web, Design, Development, Universal Access">
+    <meta name="author" content="Comfort Mode Toolkit Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://comfort-mode-toolkit.github.io/">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#faf8ef">
+    <!-- Favicon/Icons -->
+    <link rel="icon" type="image/png" href="/assets/og-image.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Social: Open Graph -->
+    <meta property="og:title" content="Comfort Mode Toolkit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://comfort-mode-toolkit.github.io/">
+    <meta property="og:site_name" content="Comfort Mode Toolkit">
+    <meta property="og:description" content="Open source tools for comfort and accessibility on the web. Free, open, and WCAG-focused.">
+    <!-- Use a real image if available -->
+    <meta property="og:image" content="https://comfort-mode-toolkit.github.io/assets/og-image.png">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comfort Mode Toolkit">
+    <meta name="twitter:description" content="Open source tools for comfort and accessibility on the web. Free, open, and WCAG-focused.">
+    <meta name="twitter:image" content="https://comfort-mode-toolkit.github.io/assets/og-image.png">
+    <meta name="twitter:site" content="@comfortmode">
+    <meta name="twitter:creator" content="@comfortmode">
+    <!-- Search Engine Verification -->
+    <meta name="google-site-verification" content="looWlfsX3AIw5AFB-ZmE09JTAb-850ixlvAzR2-IFj0" />
+    <!-- JSON-LD: Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Comfort Mode Toolkit",
+      "url": "https://comfort-mode-toolkit.github.io/",
+      "logo": "https://comfort-mode-toolkit.github.io/assets/og-image.png",
+      "sameAs": [
+        "https://github.com/comfort-mode-toolkit",
+        "https://comfort-mode-toolkit.readthedocs.io/en/latest/"
+      ],
+      "description": "Open source tools for comfort and accessibility on the web. Free, open, WCAG-compliant and community-driven.",
+      "contactPoint": [{
+          "@type": "ContactPoint",
+          "email": "contact@comfortmode-toolkit.org",
+          "contactType": "customer support"
+      }]
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYEYQN1LGK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HYEYQN1LGK');
+    </script>
+    <!-- Stylesheets and Fonts -->
     <link rel="stylesheet" href="styles.css">
-    <!-- link google font's yeseva one and atkinson hyperlegible -->
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "applicationCategory": "WebApplication",
+  "name": "Comfort Mode Toolkit",
+  "description": "Open-source accessibility tools and resources for web developers and businesses. WCAG-compliant, user-friendly, and completely free to use for your digital projects. Backed by a welcoming community.",
+  "url": "https://comfort-mode-toolkit.github.io/",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "category": "free"
+  },
+  "operatingSystem": "All",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "Developers",
+      "Businesses",
+      "Accessibility advocates",
+      "UI/UX Professionals"
+    ]
+  },
+  "isAccessibleForFree": true,
+  "license": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+  "creator": { 
+    "@type": "Organization",
+    "name": "Comfort Mode Toolkit",
+    "url": "https://github.com/comfort-mode-toolkit"
+  },
+  "keywords": [
+    "accessibility", "WCAG", "open source", "free", "business", "developer", "web accessibility", "inclusive design", "GNU GPLv3"
+  ],
+  "sameAs": [
+    "https://comfort-mode-toolkit.readthedocs.io/en/latest/",
+    "https://github.com/comfort-mode-toolkit"
+  ],
+  "hasPart": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "CM-Colors",
+      "url": "https://comfort-mode-toolkit.github.io/cm-colors",
+      "applicationCategory": "Library",
+      "description": "CM-Colors – You pick the colors. We make them accessible. Automatically make your color combinations WCAG accessible with tiny, imperceptible changes. Python library that tunes colors for accessibility while preserving your design aesthetic.",
+      "programmingLanguage": "Python",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "category": "free"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  ]
+}
+</script>
 </head>
 <body>
-    <!-- <h1>Comfort Mode Toolkit</h1> -->
-    <!-- <h1 class="abril">Comfort Mode Toolkit</h1> -->
-     <nav>
-    <logo>Comfort Mode Toolkit</logo>
-    <ul class="nav-links">
-        <li><a href="https://comfort-mode-toolkit.readthedocs.io/en/latest/index.html">Toolkit</a></li>
-        <li><a href="https://comfort-mode-toolkit.github.io/wiki/">Contribute</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
+    <nav>
+        <logo>Comfort Mode Toolkit</logo>
+        <ul class="nav-links">
+            <li><a href="https://comfort-mode-toolkit.readthedocs.io/en/latest/index.html">Toolkit</a></li>
+            <li><a href="https://github.com/comfort-mode-toolkit/cm-colors/issues">Contribute</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
     <hr>
     <main>
-    <h3>Your comfort is reason enough.</h3>
-    <h1 class="abril">Making the web work better for more people</h1>
-    <h2 class="atkinson h2">
-        Explore tools you can use today - or step into our forest to play, prototype, and build the next ones.
-    </h2>
-    <p class="p"><em>Open Source. Free to Use. Open to All.</em></p>
-    <!-- <h2 class="abril">Your comfort is reason enough.</h2> -->
-    <button class="btn btn-primary">Checkout the tools</button>
-    <button class="btn btn-outline">Contribute</button>
+        <h3>Your comfort is reason enough.</h3>
+        <h1 class="abril">Making the web work better for more people</h1>
+        <h2 class="atkinson h2">
+            Explore tools you can use today - or step into our forest to play, prototype, and build the next ones.
+        </h2>
+        <p class="p"><em>Open Source. Free to Use. Open to All.</em></p>
+        <button class="btn btn-primary" id="btn-tools">Checkout the tools</button>
+        <button class="btn btn-outline" id="btn-contribute">Contribute</button>
     </main>
     <blockquote>
     </blockquote>
-    <!-- <footer>
-        <p>Comfort Mode Toolkit is an open-source community creating tools that make the web more comfortable and accessible for real people with real needs.</p>
-        <p>We're developers, designers, researchers, and advocates who believe the internet should feel good to use—not just technically compliant.</p>
-        <p>&copy; 2025 Comfort Mode Toolkit</p>
-    </footer> -->
-
+    <!-- CTA REDIRECTION SCRIPT, non-visual, keeps styling intact -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var toolsBtn = document.getElementById('btn-tools');
+        var contribBtn = document.getElementById('btn-contribute');
+        if (toolsBtn) {
+          toolsBtn.addEventListener('click', function() {
+            window.location.href = 'https://comfort-mode-toolkit.readthedocs.io/en/latest/';
+          });
+        }
+        if (contribBtn) {
+          contribBtn.addEventListener('click', function() {
+            window.location.href = 'https://github.com/comfort-mode-toolkit/cm-colors/issues';
+          });
+        }
+      });
+    </script>
 </body>
 </html>
